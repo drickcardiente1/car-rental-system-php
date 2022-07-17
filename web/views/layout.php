@@ -1,7 +1,13 @@
+<?php 
+session_start();
+include('includes/config.php');
+error_reporting(0);
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-  {% include 'header.html' %}
+<?php include('header.html');?>
 </head>
 
 <body>
